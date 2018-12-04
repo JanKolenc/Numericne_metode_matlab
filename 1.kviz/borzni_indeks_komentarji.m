@@ -31,5 +31,9 @@ for i =size(M,1); %koliko i-jev naj pregleda
         end
     end
 end
-        
+
+I(st_dneva)
+Ifloor(st_dneva)
+Iceil(st_dneva)
+Iround(st_dneva)
 
