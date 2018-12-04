@@ -15,7 +15,7 @@ for d = 2:m; %zanka ki ti bo sestevala/mnozila indekse glede na formulo k jo mas
     I(d) = I(d-1)*r %tukej ti matlab sam računa brez zaokrozevanja
     Ifloor(d) = Ifloor(d-1)*floor(r*1000)/1000; %zaokrozevanje na dol
     Iceil(d) = Iceil(d-1)*ceil(r*1000)/1000; %zaokrozevanje na gor
-    Iround(d) = Iround(d-1)*round(r*1000, 3)/1000; %zaokorozevanje na odvisno od 4 decimalke, tk je nastiman po defaultu
+    Iround(d) = Iround(d-1)*round(r*1000)/1000; %zaokorozevanje na odvisno od 4 decimalke, tk je nastiman po defaultu
 end
 %za odgovore tukaj ko mas zadnji dan lohk uporabljas ukaz end, al pa s funkcijo st_dneva spodaj ugotovis na kateri cifri je tvoj dan ki te zanima in pol
 %tk vneses notr: I(45) al pa I(end)
